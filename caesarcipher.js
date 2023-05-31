@@ -8,13 +8,13 @@ function caesarcipher(char) {
     for (let i = 0; i < char.length; i++) { 
         for (let y = 0; y < specialchars.length; y++) {
             if (specialchars[y]===char[i]) {
-                index.push(char[i])
+                index.push(char[i]);
             }
         }
         for (let v = 0; v < alphabets.length; v++) {
 
             if (alphabets[v]===(char[i].toUpperCase())) {
-                const newindex = alphabets.indexOf(alphabets[v])+13
+                const newindex = alphabets.indexOf(alphabets[v])+13;
                 if (newindex >= 26) {
                     index.push(newindex - 26);
                 } else index.push(newindex);
@@ -26,7 +26,7 @@ function caesarcipher(char) {
     for (let r = 0; r < index.length; r++) {
         if (alphabets[(index[r])]) {
             rot13.push((alphabets[(index[r])]));
-        } else rot13.push(index[r])
+        } else rot13.push(index[r]);
             
 
     };
