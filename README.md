@@ -9,12 +9,5 @@
 
 - - - 
 
-+ capitalize function
-+ reverseString function
-+ calculator object with:
-    - add function
-    - subtract function
-    - multiply function
-    - divide function
-+ caesarCipher function
-+ arrayAnalysis function
+#### Useful Links
++ [Recursion and stack](https://javascript.info/recursion)
